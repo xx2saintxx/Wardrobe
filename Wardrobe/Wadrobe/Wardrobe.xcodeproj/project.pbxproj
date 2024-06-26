@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC74C17D2C2BD30A000FD9B6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C17C2C2BD30A000FD9B6 /* SplashScreenView.swift */; };
+		AC74C17F2C2BD621000FD9B6 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C17E2C2BD621000FD9B6 /* HomeScreenView.swift */; };
+		AC74C1812C2BD75A000FD9B6 /* StorageScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C1802C2BD75A000FD9B6 /* StorageScreenView.swift */; };
+		AC74C1832C2BD87B000FD9B6 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C1822C2BD87B000FD9B6 /* AddItemView.swift */; };
+		AC74C1852C2BD9D9000FD9B6 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C1842C2BD9D9000FD9B6 /* ItemDetailView.swift */; };
+		AC74C1872C2BDD23000FD9B6 /* SharingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C1862C2BDD23000FD9B6 /* SharingScreenView.swift */; };
+		AC74C1892C2BDE12000FD9B6 /* WardrobeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C1882C2BDE12000FD9B6 /* WardrobeItem.swift */; };
+		AC74C18B2C2BDE4A000FD9B6 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74C18A2C2BDE4A000FD9B6 /* Outfit.swift */; };
+		AC7890B02C2332A80006C164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890AF2C2332A80006C164 /* AppDelegate.swift */; };
+		AC7890B22C2332A80006C164 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890B12C2332A80006C164 /* SceneDelegate.swift */; };
+		AC7890B42C2332A80006C164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890B32C2332A80006C164 /* ViewController.swift */; };
+		AC7890B72C2332A80006C164 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AC7890B62C2332A80006C164 /* Base */; };
+		AC7890B92C2332AC0006C164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7890B82C2332AC0006C164 /* Assets.xcassets */; };
+		AC7890BC2C2332AC0006C164 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AC7890BB2C2332AC0006C164 /* Base */; };
+		AC7890C72C2332AC0006C164 /* WadrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890C62C2332AC0006C164 /* WadrobeTests.swift */; };
+		AC7890D12C2332AC0006C164 /* WadrobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890D02C2332AC0006C164 /* WadrobeUITests.swift */; };
+		AC7890D32C2332AC0006C164 /* WadrobeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7890D22C2332AC0006C164 /* WadrobeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC7890C32C2332AC0006C164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7890A42C2332A80006C164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7890AB2C2332A80006C164;
+			remoteInfo = Wadrobe;
+		};
+		AC7890CD2C2332AC0006C164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7890A42C2332A80006C164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7890AB2C2332A80006C164;
+			remoteInfo = Wadrobe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC74C17C2C2BD30A000FD9B6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		AC74C17E2C2BD621000FD9B6 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		AC74C1802C2BD75A000FD9B6 /* StorageScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageScreenView.swift; sourceTree = "<group>"; };
+		AC74C1822C2BD87B000FD9B6 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		AC74C1842C2BD9D9000FD9B6 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		AC74C1862C2BDD23000FD9B6 /* SharingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingScreenView.swift; sourceTree = "<group>"; };
+		AC74C1882C2BDE12000FD9B6 /* WardrobeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeItem.swift; sourceTree = "<group>"; };
+		AC74C18A2C2BDE4A000FD9B6 /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		AC7890AC2C2332A80006C164 /* Wardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7890AF2C2332A80006C164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC7890B12C2332A80006C164 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC7890B32C2332A80006C164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC7890B62C2332A80006C164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC7890B82C2332AC0006C164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7890BB2C2332AC0006C164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC7890BD2C2332AC0006C164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7890C22C2332AC0006C164 /* WardrobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WardrobeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7890C62C2332AC0006C164 /* WadrobeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WadrobeTests.swift; sourceTree = "<group>"; };
+		AC7890CC2C2332AC0006C164 /* WardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WardrobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7890D02C2332AC0006C164 /* WadrobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WadrobeUITests.swift; sourceTree = "<group>"; };
+		AC7890D22C2332AC0006C164 /* WadrobeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WadrobeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7890A92C2332A80006C164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890BF2C2332AC0006C164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890C92C2332AC0006C164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7890A32C2332A80006C164 = {
+			isa = PBXGroup;
+			children = (
+				AC7890AE2C2332A80006C164 /* Wadrobe */,
+				AC7890C52C2332AC0006C164 /* WadrobeTests */,
+				AC7890CF2C2332AC0006C164 /* WadrobeUITests */,
+				AC7890AD2C2332A80006C164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7890AD2C2332A80006C164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7890AC2C2332A80006C164 /* Wardrobe.app */,
+				AC7890C22C2332AC0006C164 /* WardrobeTests.xctest */,
+				AC7890CC2C2332AC0006C164 /* WardrobeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7890AE2C2332A80006C164 /* Wadrobe */ = {
+			isa = PBXGroup;
+			children = (
+				AC7890AF2C2332A80006C164 /* AppDelegate.swift */,
+				AC7890B12C2332A80006C164 /* SceneDelegate.swift */,
+				AC7890B32C2332A80006C164 /* ViewController.swift */,
+				AC7890B52C2332A80006C164 /* Main.storyboard */,
+				AC7890B82C2332AC0006C164 /* Assets.xcassets */,
+				AC7890BA2C2332AC0006C164 /* LaunchScreen.storyboard */,
+				AC7890BD2C2332AC0006C164 /* Info.plist */,
+				AC74C1882C2BDE12000FD9B6 /* WardrobeItem.swift */,
+				AC74C18A2C2BDE4A000FD9B6 /* Outfit.swift */,
+				AC74C17C2C2BD30A000FD9B6 /* SplashScreenView.swift */,
+				AC74C17E2C2BD621000FD9B6 /* HomeScreenView.swift */,
+				AC74C1802C2BD75A000FD9B6 /* StorageScreenView.swift */,
+				AC74C1822C2BD87B000FD9B6 /* AddItemView.swift */,
+				AC74C1842C2BD9D9000FD9B6 /* ItemDetailView.swift */,
+				AC74C1862C2BDD23000FD9B6 /* SharingScreenView.swift */,
+			);
+			path = Wadrobe;
+			sourceTree = "<group>";
+		};
+		AC7890C52C2332AC0006C164 /* WadrobeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7890C62C2332AC0006C164 /* WadrobeTests.swift */,
+			);
+			path = WadrobeTests;
+			sourceTree = "<group>";
+		};
+		AC7890CF2C2332AC0006C164 /* WadrobeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC7890D02C2332AC0006C164 /* WadrobeUITests.swift */,
+				AC7890D22C2332AC0006C164 /* WadrobeUITestsLaunchTests.swift */,
+			);
+			path = WadrobeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7890AB2C2332A80006C164 /* Wardrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7890D62C2332AC0006C164 /* Build configuration list for PBXNativeTarget "Wardrobe" */;
+			buildPhases = (
+				AC7890A82C2332A80006C164 /* Sources */,
+				AC7890A92C2332A80006C164 /* Frameworks */,
+				AC7890AA2C2332A80006C164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wardrobe;
+			productName = Wadrobe;
+			productReference = AC7890AC2C2332A80006C164 /* Wardrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC7890C12C2332AC0006C164 /* WardrobeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7890D92C2332AC0006C164 /* Build configuration list for PBXNativeTarget "WardrobeTests" */;
+			buildPhases = (
+				AC7890BE2C2332AC0006C164 /* Sources */,
+				AC7890BF2C2332AC0006C164 /* Frameworks */,
+				AC7890C02C2332AC0006C164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7890C42C2332AC0006C164 /* PBXTargetDependency */,
+			);
+			name = WardrobeTests;
+			productName = WadrobeTests;
+			productReference = AC7890C22C2332AC0006C164 /* WardrobeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC7890CB2C2332AC0006C164 /* WardrobeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7890DC2C2332AC0006C164 /* Build configuration list for PBXNativeTarget "WardrobeUITests" */;
+			buildPhases = (
+				AC7890C82C2332AC0006C164 /* Sources */,
+				AC7890C92C2332AC0006C164 /* Frameworks */,
+				AC7890CA2C2332AC0006C164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7890CE2C2332AC0006C164 /* PBXTargetDependency */,
+			);
+			name = WardrobeUITests;
+			productName = WadrobeUITests;
+			productReference = AC7890CC2C2332AC0006C164 /* WardrobeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7890A42C2332A80006C164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC7890AB2C2332A80006C164 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AC7890C12C2332AC0006C164 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC7890AB2C2332A80006C164;
+					};
+					AC7890CB2C2332AC0006C164 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC7890AB2C2332A80006C164;
+					};
+				};
+			};
+			buildConfigurationList = AC7890A72C2332A80006C164 /* Build configuration list for PBXProject "Wardrobe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7890A32C2332A80006C164;
+			productRefGroup = AC7890AD2C2332A80006C164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7890AB2C2332A80006C164 /* Wardrobe */,
+				AC7890C12C2332AC0006C164 /* WardrobeTests */,
+				AC7890CB2C2332AC0006C164 /* WardrobeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7890AA2C2332A80006C164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7890B92C2332AC0006C164 /* Assets.xcassets in Resources */,
+				AC7890BC2C2332AC0006C164 /* Base in Resources */,
+				AC7890B72C2332A80006C164 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890C02C2332AC0006C164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890CA2C2332AC0006C164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7890A82C2332A80006C164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC74C1872C2BDD23000FD9B6 /* SharingScreenView.swift in Sources */,
+				AC74C17D2C2BD30A000FD9B6 /* SplashScreenView.swift in Sources */,
+				AC74C1892C2BDE12000FD9B6 /* WardrobeItem.swift in Sources */,
+				AC74C1812C2BD75A000FD9B6 /* StorageScreenView.swift in Sources */,
+				AC74C1852C2BD9D9000FD9B6 /* ItemDetailView.swift in Sources */,
+				AC74C1832C2BD87B000FD9B6 /* AddItemView.swift in Sources */,
+				AC74C17F2C2BD621000FD9B6 /* HomeScreenView.swift in Sources */,
+				AC7890B42C2332A80006C164 /* ViewController.swift in Sources */,
+				AC74C18B2C2BDE4A000FD9B6 /* Outfit.swift in Sources */,
+				AC7890B02C2332A80006C164 /* AppDelegate.swift in Sources */,
+				AC7890B22C2332A80006C164 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890BE2C2332AC0006C164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7890C72C2332AC0006C164 /* WadrobeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7890C82C2332AC0006C164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7890D12C2332AC0006C164 /* WadrobeUITests.swift in Sources */,
+				AC7890D32C2332AC0006C164 /* WadrobeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7890C42C2332AC0006C164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7890AB2C2332A80006C164 /* Wardrobe */;
+			targetProxy = AC7890C32C2332AC0006C164 /* PBXContainerItemProxy */;
+		};
+		AC7890CE2C2332AC0006C164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7890AB2C2332A80006C164 /* Wardrobe */;
+			targetProxy = AC7890CD2C2332AC0006C164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC7890B52C2332A80006C164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7890B62C2332A80006C164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7890BA2C2332AC0006C164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7890BB2C2332AC0006C164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC7890D42C2332AC0006C164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7890D52C2332AC0006C164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7890D72C2332AC0006C164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wadrobe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.Wadrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7890D82C2332AC0006C164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wadrobe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.Wadrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC7890DA2C2332AC0006C164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.WadrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wardrobe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wardrobe";
+			};
+			name = Debug;
+		};
+		AC7890DB2C2332AC0006C164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.WadrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wardrobe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wardrobe";
+			};
+			name = Release;
+		};
+		AC7890DD2C2332AC0006C164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.WadrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wadrobe;
+			};
+			name = Debug;
+		};
+		AC7890DE2C2332AC0006C164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Author--Toussaint-Lao-Turnier.WadrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wadrobe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7890A72C2332A80006C164 /* Build configuration list for PBXProject "Wardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7890D42C2332AC0006C164 /* Debug */,
+				AC7890D52C2332AC0006C164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7890D62C2332AC0006C164 /* Build configuration list for PBXNativeTarget "Wardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7890D72C2332AC0006C164 /* Debug */,
+				AC7890D82C2332AC0006C164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7890D92C2332AC0006C164 /* Build configuration list for PBXNativeTarget "WardrobeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7890DA2C2332AC0006C164 /* Debug */,
+				AC7890DB2C2332AC0006C164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7890DC2C2332AC0006C164 /* Build configuration list for PBXNativeTarget "WardrobeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7890DD2C2332AC0006C164 /* Debug */,
+				AC7890DE2C2332AC0006C164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7890A42C2332A80006C164 /* Project object */;
+}
